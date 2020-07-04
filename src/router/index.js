@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Category from "../views/Category";
 import SingleProduct from "../views/SingleProduct";
+import Checkout from "../views/Checkout";
 
 Vue.use(VueRouter)
 
@@ -22,11 +23,12 @@ const routes = [
         name: 'SingleProduct',
         component: SingleProduct
     },
+    {
+        path: '/checkout',
+        name: 'Checkout',
+        component: Checkout
+    },
     /*{
-        path: '/single-product',
-        name: 'SingleProduct',
-        component: SingleProduct
-    },{
         path: '/single-product',
         name: 'SingleProduct',
         component: SingleProduct
