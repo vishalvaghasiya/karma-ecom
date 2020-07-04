@@ -38,7 +38,7 @@
                                             Checkout</a></li>
                                         <li class="nav-item"><a class="nav-link" href="/cart">Shopping Cart</a></li>
                                         <li class="nav-item"><a class="nav-link"
-                                                                href="confirmation.html">Confirmation</a></li>
+                                                                href="/confirmation">Confirmation</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item submenu dropdown">
