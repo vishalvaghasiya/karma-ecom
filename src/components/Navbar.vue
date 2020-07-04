@@ -80,8 +80,11 @@
 <style>
     .sticky-wrapper {
         position: absolute;
-        top: 0px;
+        top: unset;
         width: 100%;
     }
-    /*top: 40px;*/
+    /*
+    position: relative; Full Image
+    position: absolute; Top image on header
+    top: 40px;*/
 </style>
