@@ -4,11 +4,11 @@
         <div class="container">
             <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
                 <div class="col-first">
-                    <h1>{{PageTitle}}</h1>
+                    <h1>{{title}}</h1>
                     <nav class="d-flex align-items-center">
-                        <a href="/index">Home<span class="lnr lnr-arrow-right"></span></a>
-                        <a :href="navUrl">{{NavTabName}}<span class="lnr lnr-arrow-right"></span></a>
-                        <a :href="url">{{PageName}}</a>
+                        <a href="/">Home<span class="lnr lnr-arrow-right"></span></a>
+                        <a href="">{{navName}}<span class="lnr lnr-arrow-right"></span></a>
+                        <a :href="url">{{pageName}}</a>
                     </nav>
                 </div>
             </div>
@@ -21,10 +21,9 @@
     export default {
         name: "BannerArea",
         props: {
-            PageTitle: String,  /*Product Details Page*/
-            navUrl: String,  /*/nav*/
-            NavTabName: String,  /*Shop*/
-            PageName: String,   /*product-details*/
+            title: String,  /*Product Details Page*/
+            navName: String,  /*Shop*/
+            pageName: String,   /*product-details*/
             url: String,
         }
     }
