@@ -32,7 +32,7 @@
                                     <ul class="dropdown-menu">
                                         <li class="nav-item"><a class="nav-link" href="/category">Shop Category</a>
                                         </li>
-                                        <li class="nav-item"><a class="nav-link" href="/single-product">Product
+                                        <li class="nav-item"><a class="nav-link" href="/product-description">Product
                                             Details</a></li>
                                         <li class="nav-item"><a class="nav-link" href="/checkout">Product
                                             Checkout</a></li>
@@ -46,8 +46,8 @@
                                        aria-haspopup="true"
                                        aria-expanded="false">Blog</a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog
+                                        <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/blog-description">Blog
                                             Details</a></li>
                                     </ul>
                                 </li>
@@ -56,12 +56,11 @@
                                        aria-haspopup="true"
                                        aria-expanded="false">Pages</a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="tracking.html">Tracking</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/tracking">Tracking</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="nav-item"><a href="#" class="cart"><span class="ti-bag"></span></a></li>
