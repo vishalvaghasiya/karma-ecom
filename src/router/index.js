@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Category from "../views/Category";
-import SingleProduct from "../views/SingleProduct";
+import SingleProduct from "../views/ProductDescription";
 import Checkout from "../views/Checkout";
 import Cart from "../views/Cart";
 import Confirmation from "../views/Confirmation";

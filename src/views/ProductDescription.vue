@@ -449,7 +449,7 @@
     import RelatedProduct from "../components/common/RelatedProduct";
 
     export default {
-        name: "SingleProduct",
+        name: "ProductDescription",
         components: {RelatedProduct}
     }
 </script>
