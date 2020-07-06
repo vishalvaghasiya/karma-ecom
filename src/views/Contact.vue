@@ -16,10 +16,9 @@
             </div>
         </section>-->
         <BannerArea
-                title=""
-                navName=""
-                pageName=""
-                url=""
+                title="Contact Us"
+                pageName="Contact"
+                url="/category"
         ></BannerArea>
         <!-- End Banner Area -->
 

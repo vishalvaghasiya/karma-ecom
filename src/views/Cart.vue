@@ -16,10 +16,9 @@
         </section>-->
 
         <BannerArea
-                title=""
-                navName=""
-                pageName=""
-                url=""
+                title="Shopping Cart"
+                pageName="Cart"
+                url="/category"
         >
 
         </BannerArea>

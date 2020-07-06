@@ -15,10 +15,9 @@
         </section>-->
 
         <BannerArea
-                title=""
-                navName=""
-                pageName=""
-                url=""
+                title="Checkout"
+                pageName="Checkout"
+                url="/product-description"
         >
 
         </BannerArea>

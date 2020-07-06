@@ -16,10 +16,9 @@
         </section>-->
 
         <BannerArea
-                title=""
-                navName=""
-                pageName=""
-                url=""
+                title="Blog Page"
+                pageName="Blog"
+                url="/category"
         ></BannerArea>
         <!-- End Banner Area -->
         <!--================Blog Categorie Area =================-->

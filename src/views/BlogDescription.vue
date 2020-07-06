@@ -15,10 +15,9 @@
             </div>
         </section>-->
         <BannerArea
-                title=""
-                navName=""
-                pageName=""
-                url=""
+                title="Blog Page"
+                pageName="Blog"
+                url="/category"
         >
 
         </BannerArea>

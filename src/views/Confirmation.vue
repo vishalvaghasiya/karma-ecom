@@ -2,24 +2,23 @@
     <div id="confirmation">
 
         <!-- Start Banner Area -->
-      <!--  <section class="banner-area organic-breadcrumb">
-            <div class="container">
-                <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
-                    <div class="col-first">
-                        <h1>Confirmation</h1>
-                        <nav class="d-flex align-items-center">
-                            <a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
-                            <a href="category.html">Confirmation</a>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </section>-->
+        <!--  <section class="banner-area organic-breadcrumb">
+              <div class="container">
+                  <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+                      <div class="col-first">
+                          <h1>Confirmation</h1>
+                          <nav class="d-flex align-items-center">
+                              <a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
+                              <a href="category.html">Confirmation</a>
+                          </nav>
+                      </div>
+                  </div>
+              </div>
+          </section>-->
         <BannerArea
-                title=""
-                navName=""
-                pageName=""
-                url=""
+                title="Confirmation"
+                pageName="Confirmation"
+                url="/category"
         ></BannerArea>
         <!-- End Banner Area -->
         <!--================Order Details Area =================-->
@@ -151,6 +150,7 @@
 
 <script>
     import BannerArea from "../components/common/BannerArea";
+
     export default {
         name: "Confirmation",
         components: {BannerArea}

@@ -16,11 +16,11 @@
             </div>
         </section>-->
         <BannerArea
-                title=""
-                navName=""
-                pageName=""
-                url=""
-        ></BannerArea>
+                title="Product Details Page"
+                pageName="product-details"
+                url="/product-description">
+
+        </BannerArea>
         <!-- End Banner Area -->
         <!--================Single Product Area =================-->
         <div class="product_image_area">
@@ -432,7 +432,7 @@
                                             <div class="form-group">
                                                 <textarea class="form-control" name="message" id="message" rows="1"
                                                           placeholder="Review" onfocus="this.placeholder = ''"
-                                                          onblur="this.placeholder = 'Review'"></textarea></textarea>
+                                                          onblur="this.placeholder = 'Review'"></textarea>
                                             </div>
                                         </div>
                                         <div class="col-md-12 text-right">
