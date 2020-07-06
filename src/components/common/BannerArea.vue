@@ -4,38 +4,29 @@
         <div class="container">
             <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
                 <div class="col-first">
-                    <h1>Product Details Page</h1>
+                    <h1>{{PageTitle}}</h1>
                     <nav class="d-flex align-items-center">
-                        <a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
-                        <a href="#">Shop<span class="lnr lnr-arrow-right"></span></a>
-                        <a href="single-product.html">product-details</a>
+                        <a href="/index">Home<span class="lnr lnr-arrow-right"></span></a>
+                        <a :href="navUrl">{{NavTabName}}<span class="lnr lnr-arrow-right"></span></a>
+                        <a :href="url">{{PageName}}</a>
                     </nav>
                 </div>
             </div>
         </div>
     </section>
     <!-- End Banner Area -->
-
-    <!-- Start Banner Area -->
-    <!--<section class="banner-area organic-breadcrumb">
-        <div class="container">
-            <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
-                <div class="col-first">
-                    <h1>Checkout</h1>
-                    <nav class="d-flex align-items-center">
-                        <a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
-                        <a href="single-product.html">Checkout</a>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </section>-->
-    <!-- End Banner Area -->
 </template>
 
 <script>
     export default {
-        name: "BannerArea"
+        name: "BannerArea",
+        props: {
+            PageTitle: String,  /*Product Details Page*/
+            navUrl: String,  /*/nav*/
+            NavTabName: String,  /*Shop*/
+            PageName: String,   /*product-details*/
+            url: String,
+        }
     }
 </script>
 
