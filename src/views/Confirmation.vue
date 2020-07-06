@@ -2,7 +2,7 @@
     <div id="confirmation">
 
         <!-- Start Banner Area -->
-        <section class="banner-area organic-breadcrumb">
+      <!--  <section class="banner-area organic-breadcrumb">
             <div class="container">
                 <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
                     <div class="col-first">
@@ -14,7 +14,13 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
+        <BannerArea
+                title=""
+                navName=""
+                pageName=""
+                url=""
+        ></BannerArea>
         <!-- End Banner Area -->
         <!--================Order Details Area =================-->
         <section class="order_details section_gap">
@@ -144,8 +150,10 @@
 </template>
 
 <script>
+    import BannerArea from "../components/common/BannerArea";
     export default {
-        name: "Confirmation"
+        name: "Confirmation",
+        components: {BannerArea}
     }
 </script>
 

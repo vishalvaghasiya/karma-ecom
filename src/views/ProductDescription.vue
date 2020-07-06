@@ -1,7 +1,7 @@
 <template>
     <div>
         <!-- Start Banner Area -->
-        <section class="banner-area organic-breadcrumb">
+        <!--<section class="banner-area organic-breadcrumb">
             <div class="container">
                 <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
                     <div class="col-first">
@@ -14,7 +14,13 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
+        <BannerArea
+                title=""
+                navName=""
+                pageName=""
+                url=""
+        ></BannerArea>
         <!-- End Banner Area -->
         <!--================Single Product Area =================-->
         <div class="product_image_area">
@@ -447,10 +453,11 @@
 
 <script>
     import RelatedProduct from "../components/common/RelatedProduct";
+    import BannerArea from "../components/common/BannerArea";
 
     export default {
         name: "ProductDescription",
-        components: {RelatedProduct}
+        components: {BannerArea, RelatedProduct}
     }
 </script>
 

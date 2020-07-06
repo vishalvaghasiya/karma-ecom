@@ -1,7 +1,7 @@
 <template>
     <div id="blog">
         <!-- Start Banner Area -->
-        <section class="banner-area organic-breadcrumb">
+       <!-- <section class="banner-area organic-breadcrumb">
             <div class="container">
                 <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
                     <div class="col-first">
@@ -13,7 +13,14 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
+
+        <BannerArea
+                title=""
+                navName=""
+                pageName=""
+                url=""
+        ></BannerArea>
         <!-- End Banner Area -->
         <!--================Blog Categorie Area =================-->
         <section class="blog_categorie_area">
@@ -420,8 +427,10 @@
 </template>
 
 <script>
+    import BannerArea from "../components/common/BannerArea";
     export default {
-        name: "Blog"
+        name: "Blog",
+        components: {BannerArea}
     }
 </script>
 
