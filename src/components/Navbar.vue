@@ -19,7 +19,10 @@
                         <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                             <ul class="nav navbar-nav menu_nav ml-auto">
 
-                                <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
+                                <li class="nav-item active">
+                                    <router-link to="/" exact class="nav-link">Home</router-link>
+                                    <!--<a class="nav-link" href="/">Home</a>-->
+                                </li>
 
                                 <!--<li class="nav-item">
                                     <router-link to="/" exact active-class="active" class="nav-link">Home</router-link>
@@ -30,15 +33,35 @@
                                        aria-haspopup="true"
                                        aria-expanded="false">Shop</a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-link" href="/category">Shop Category</a>
+                                        <li class="nav-item">
+                                            <router-link to="/category" exact class="nav-link"> Shop Category
+                                            </router-link>
+                                            <!--<a class="nav-link" href="/category">Shop Category</a>-->
                                         </li>
-                                        <li class="nav-item"><a class="nav-link" href="/product-description">Product
-                                            Details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/checkout">Product
-                                            Checkout</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/cart">Shopping Cart</a></li>
-                                        <li class="nav-item"><a class="nav-link"
-                                                                href="/confirmation">Confirmation</a></li>
+                                        <li class="nav-item">
+                                            <router-link to="/product-description" exact class="nav-link">Product
+                                                Details
+                                            </router-link>
+                                            <!--<a class="nav-link" href="/product-description">Product
+                                                Details</a>-->
+                                        </li>
+                                        <li class="nav-item">
+                                            <router-link to="/checkout" exact class="nav-link">
+                                                Product Checkout
+                                            </router-link>
+                                            <!--<a class="nav-link" href="/checkout">Product
+                                                Checkout</a>-->
+                                        </li>
+                                        <li class="nav-item">
+                                            <router-link to="/cart" exact class="nav-link"> Shopping Cart</router-link>
+                                            <!--<a class="nav-link" href="/cart">Shopping Cart</a>-->
+                                        </li>
+                                        <li class="nav-item">
+                                            <router-link to="/confirmation" exact class="nav-link">Confirmation
+                                            </router-link>
+                                            <!--<a class="nav-link"
+                                               href="/confirmation">Confirmation</a>-->
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item submenu dropdown">
@@ -46,9 +69,17 @@
                                        aria-haspopup="true"
                                        aria-expanded="false">Blog</a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/blog-description">Blog
-                                            Details</a></li>
+
+                                        <li class="nav-item">
+                                            <router-link to="/blog" exact class="nav-link">Blog</router-link>
+                                            <!--<a class="nav-link" href="/blog">Blog</a>-->
+                                        </li>
+                                        <li class="nav-item">
+                                            <router-link to="/blog-description" class="nav-link">Blog Details
+                                            </router-link>
+                                            <!--<a class="nav-link" href="/blog-description">Blog
+                                            Details</a>-->
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item submenu dropdown">
@@ -56,11 +87,21 @@
                                        aria-haspopup="true"
                                        aria-expanded="false">Pages</a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/tracking">Tracking</a></li>
+
+                                        <li class="nav-item">
+                                            <router-link class="nav-link" to="/login" exact>Login</router-link>
+                                            <!--<a class="nav-link" href="/login">Login</a>-->
+                                        </li>
+                                        <li class="nav-item">
+                                            <router-link class="nav-link" to="/tracking" exact>Tracking</router-link>
+                                            <!--<a class="nav-link" href="/tracking">Tracking</a>-->
+                                        </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+                                <li class="nav-item">
+                                    <router-link class="nav-link" to="/contact" exact>Contact</router-link>
+                                    <!--<a class="nav-link" href="/contact">Contact</a>-->
+                                </li>
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="nav-item"><a href="#" class="cart"><span class="ti-bag"></span></a></li>
