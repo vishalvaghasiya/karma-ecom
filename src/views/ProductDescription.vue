@@ -1,5 +1,6 @@
 <template>
-    <div>
+    <div id="pd">
+        <!--{{forceRerender()}}-->
         <!-- Start Banner Area -->
         <!--<section class="banner-area organic-breadcrumb">
             <div class="container">
@@ -27,6 +28,7 @@
             <div class="container">
                 <div class="row s_product_inner">
                     <div class="col-lg-6">
+                        <!--<div class="s_Product_carousel">-->
                         <div class="s_Product_carousel">
                             <div class="single-prd-item">
                                 <img class="img-fluid" src="img/category/s-p1.jpg" alt="">
@@ -454,10 +456,41 @@
 <script>
     import RelatedProduct from "../components/common/RelatedProduct";
     import BannerArea from "../components/common/BannerArea";
+    // import owl from "../../public/js/owl.carousel.min.js";
 
     export default {
         name: "ProductDescription",
-        components: {BannerArea, RelatedProduct}
+        components: {BannerArea, RelatedProduct},
+        methods: {
+            /*forceRerender: function () {
+                if (!window.location.hash) {
+                    window.location = window.location + '#loaded';
+                    window.location.reload();
+                }
+            }*/
+        },
+        mounted() {
+            $(".s_Product_carousel").owlCarousel({
+                items: 1,
+                autoplay: false,
+                autoplayTimeout: 5000,
+                loop: true,
+                nav: false,
+                dots: true
+            });
+            /* todo: First Check which file in class (.s_Product_carousel) code -- OP: main.js
+                Find code using Search Then Code copy and past in mounted()
+                mounted() {
+                    $(".s_Product_carousel").owlCarousel({
+                    items: 1,
+                    autoplay: false,
+                    autoplayTimeout: 5000,
+                    loop: true,
+                    nav: false,
+                    dots: true
+                });
+ 	    }*/
+        }
     }
 </script>
 
