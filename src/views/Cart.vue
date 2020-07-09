@@ -1,26 +1,10 @@
 <template>
     <div id="cart">
         <!-- Start Banner Area -->
-      <!--  <section class="banner-area organic-breadcrumb">
-            <div class="container">
-                <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
-                    <div class="col-first">
-                        <h1>Shopping Cart</h1>
-                        <nav class="d-flex align-items-center">
-                            <a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
-                            <a href="category.html">Cart</a>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </section>-->
-
         <BannerArea
                 title="Shopping Cart"
                 pageName="Cart"
-                url="/category"
-        >
-
+                url="/category">
         </BannerArea>
         <!-- End Banner Area -->
         <!--================Cart Area =================-->
@@ -54,12 +38,15 @@
                                 </td>
                                 <td>
                                     <div class="product_count">
-                                        <input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:"
+                                        <input type="text" name="qty" id="sst" maxlength="12" value="1"
+                                               title="Quantity:"
                                                class="input-text qty">
                                         <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
-                                                class="increase items-count" type="button"><i class="lnr lnr-chevron-up"></i></button>
+                                                class="increase items-count" type="button"><i
+                                                class="lnr lnr-chevron-up"></i></button>
                                         <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
-                                                class="reduced items-count" type="button"><i class="lnr lnr-chevron-down"></i></button>
+                                                class="reduced items-count" type="button"><i
+                                                class="lnr lnr-chevron-down"></i></button>
                                     </div>
                                 </td>
                                 <td>
@@ -82,12 +69,15 @@
                                 </td>
                                 <td>
                                     <div class="product_count">
-                                        <input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:"
+                                        <input type="text" name="qty" id="sst" maxlength="12" value="1"
+                                               title="Quantity:"
                                                class="input-text qty">
                                         <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
-                                                class="increase items-count" type="button"><i class="lnr lnr-chevron-up"></i></button>
+                                                class="increase items-count" type="button"><i
+                                                class="lnr lnr-chevron-up"></i></button>
                                         <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
-                                                class="reduced items-count" type="button"><i class="lnr lnr-chevron-down"></i></button>
+                                                class="reduced items-count" type="button"><i
+                                                class="lnr lnr-chevron-down"></i></button>
                                     </div>
                                 </td>
                                 <td>
@@ -110,12 +100,15 @@
                                 </td>
                                 <td>
                                     <div class="product_count">
-                                        <input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:"
+                                        <input type="text" name="qty" id="sst" maxlength="12" value="1"
+                                               title="Quantity:"
                                                class="input-text qty">
                                         <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
-                                                class="increase items-count" type="button"><i class="lnr lnr-chevron-up"></i></button>
+                                                class="increase items-count" type="button"><i
+                                                class="lnr lnr-chevron-up"></i></button>
                                         <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
-                                                class="reduced items-count" type="button"><i class="lnr lnr-chevron-down"></i></button>
+                                                class="reduced items-count" type="button"><i
+                                                class="lnr lnr-chevron-down"></i></button>
                                     </div>
                                 </td>
                                 <td>
@@ -217,6 +210,7 @@
 
 <script>
     import BannerArea from "../components/common/BannerArea";
+
     export default {
         name: "Cart",
         components: {BannerArea}

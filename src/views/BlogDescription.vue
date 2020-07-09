@@ -1,25 +1,10 @@
 <template>
     <div id="blogDescription">
         <!-- Start Banner Area -->
-        <!--<section class="banner-area organic-breadcrumb">
-            <div class="container">
-                <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
-                    <div class="col-first">
-                        <h1>Blog Page</h1>
-                        <nav class="d-flex align-items-center">
-                            <a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
-                            <a href="category.html">Blog</a>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </section>-->
         <BannerArea
                 title="Blog Page"
                 pageName="Blog"
-                url="/category"
-        >
-
+                url="/category">
         </BannerArea>
         <!-- End Banner Area -->
 
@@ -59,30 +44,37 @@
                             <div class="col-lg-9 col-md-9 blog_details">
                                 <h2>Astronomy Binoculars A Great Alternative</h2>
                                 <p class="excert">
-                                    MCSE boot camps have its supporters and its detractors. Some people do not understand
+                                    MCSE boot camps have its supporters and its detractors. Some people do not
+                                    understand
                                     why you should have to spend money on boot camp when you can get the MCSE study
                                     materials yourself at a fraction.
                                 </p>
                                 <p>
                                     Boot camps have its supporters and its detractors. Some people do not understand why
-                                    you should have to spend money on boot camp when you can get the MCSE study materials
+                                    you should have to spend money on boot camp when you can get the MCSE study
+                                    materials
                                     yourself at a fraction of the camp price. However, who has the willpower to actually
-                                    sit through a self-imposed MCSE training. who has the willpower to actually sit through
+                                    sit through a self-imposed MCSE training. who has the willpower to actually sit
+                                    through
                                     a self-imposed
                                 </p>
                                 <p>
                                     Boot camps have its supporters and its detractors. Some people do not understand why
-                                    you should have to spend money on boot camp when you can get the MCSE study materials
+                                    you should have to spend money on boot camp when you can get the MCSE study
+                                    materials
                                     yourself at a fraction of the camp price. However, who has the willpower to actually
-                                    sit through a self-imposed MCSE training. who has the willpower to actually sit through
+                                    sit through a self-imposed MCSE training. who has the willpower to actually sit
+                                    through
                                     a self-imposed
                                 </p>
                             </div>
                             <div class="col-lg-12">
                                 <div class="quotes">
-                                    MCSE boot camps have its supporters and its detractors. Some people do not understand
+                                    MCSE boot camps have its supporters and its detractors. Some people do not
+                                    understand
                                     why you should have to spend money on boot camp when you can get the MCSE study
-                                    materials yourself at a fraction of the camp price. However, who has the willpower to
+                                    materials yourself at a fraction of the camp price. However, who has the willpower
+                                    to
                                     actually sit through a self-imposed MCSE training.
                                 </div>
                                 <div class="row">
@@ -95,14 +87,18 @@
                                     <div class="col-lg-12 mt-25">
                                         <p>
                                             MCSE boot camps have its supporters and its detractors. Some people do not
-                                            understand why you should have to spend money on boot camp when you can get the
-                                            MCSE study materials yourself at a fraction of the camp price. However, who has
+                                            understand why you should have to spend money on boot camp when you can get
+                                            the
+                                            MCSE study materials yourself at a fraction of the camp price. However, who
+                                            has
                                             the willpower.
                                         </p>
                                         <p>
                                             MCSE boot camps have its supporters and its detractors. Some people do not
-                                            understand why you should have to spend money on boot camp when you can get the
-                                            MCSE study materials yourself at a fraction of the camp price. However, who has
+                                            understand why you should have to spend money on boot camp when you can get
+                                            the
+                                            MCSE study materials yourself at a fraction of the camp price. However, who
+                                            has
                                             the willpower.
                                         </p>
                                     </div>
@@ -244,21 +240,26 @@
                             <form>
                                 <div class="form-group form-inline">
                                     <div class="form-group col-lg-6 col-md-6 name">
-                                        <input type="text" class="form-control" id="name" placeholder="Enter Name" onfocus="this.placeholder = ''"
+                                        <input type="text" class="form-control" id="name" placeholder="Enter Name"
+                                               onfocus="this.placeholder = ''"
                                                onblur="this.placeholder = 'Enter Name'">
                                     </div>
                                     <div class="form-group col-lg-6 col-md-6 email">
-                                        <input type="email" class="form-control" id="email" placeholder="Enter email address"
-                                               onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'">
+                                        <input type="email" class="form-control" id="email"
+                                               placeholder="Enter email address"
+                                               onfocus="this.placeholder = ''"
+                                               onblur="this.placeholder = 'Enter email address'">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject" onfocus="this.placeholder = ''"
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject"
+                                           onfocus="this.placeholder = ''"
                                            onblur="this.placeholder = 'Subject'">
                                 </div>
                                 <div class="form-group">
                                 <textarea class="form-control mb-10" rows="5" name="message" placeholder="Messege"
-                                          onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+                                          onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'"
+                                          required=""></textarea>
                                 </div>
                                 <a href="#" class="primary-btn submit_btn">Post Comment</a>
                             </form>
@@ -268,9 +269,11 @@
                         <div class="blog_right_sidebar">
                             <aside class="single_sidebar_widget search_widget">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Search Posts" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Posts'">
+                                    <input type="text" class="form-control" placeholder="Search Posts"
+                                           onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Posts'">
                                     <span class="input-group-btn">
-                                    <button class="btn btn-default" type="button"><i class="lnr lnr-magnifier"></i></button>
+                                    <button class="btn btn-default" type="button"><i
+                                            class="lnr lnr-magnifier"></i></button>
                                 </span>
                                 </div><!-- /input-group -->
                                 <div class="br"></div>
@@ -285,7 +288,8 @@
                                     <a href="#"><i class="fa fa-github"></i></a>
                                     <a href="#"><i class="fa fa-behance"></i></a>
                                 </div>
-                                <p>Boot camps have its supporters andit sdetractors. Some people do not understand why you
+                                <p>Boot camps have its supporters andit sdetractors. Some people do not understand why
+                                    you
                                     should have to spend money on boot camp when you can get. Boot camps have itssuppor
                                     ters andits detractors.</p>
                                 <div class="br"></div>
@@ -391,10 +395,13 @@
                                 <div class="form-group d-flex flex-row">
                                     <div class="input-group">
                                         <div class="input-group-prepend">
-                                            <div class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                            <div class="input-group-text"><i class="fa fa-envelope"
+                                                                             aria-hidden="true"></i></div>
                                         </div>
-                                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter email"
-                                               onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email'">
+                                        <input type="text" class="form-control" id="inlineFormInputGroup"
+                                               placeholder="Enter email"
+                                               onfocus="this.placeholder = ''"
+                                               onblur="this.placeholder = 'Enter email'">
                                     </div>
                                     <a href="#" class="bbtns">Subcribe</a>
                                 </div>
@@ -429,6 +436,7 @@
 
 <script>
     import BannerArea from "../components/common/BannerArea";
+
     export default {
         name: "BlogDescription",
         components: {BannerArea}

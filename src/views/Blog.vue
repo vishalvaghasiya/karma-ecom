@@ -1,20 +1,6 @@
 <template>
     <div id="blog">
         <!-- Start Banner Area -->
-       <!-- <section class="banner-area organic-breadcrumb">
-            <div class="container">
-                <div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
-                    <div class="col-first">
-                        <h1>Blog Page</h1>
-                        <nav class="d-flex align-items-center">
-                            <a href="index.html">Home<span class="lnr lnr-arrow-right"></span></a>
-                            <a href="category.html">Blog</a>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </section>-->
-
         <BannerArea
                 title="Blog Page"
                 pageName="Blog"
@@ -101,8 +87,10 @@
                                             <a href="single-blog.html">
                                                 <h2>Astronomy Binoculars A Great Alternative</h2>
                                             </a>
-                                            <p>MCSE boot camps have its supporters and its detractors. Some people do not
-                                                understand why you should have to spend money on boot camp when you can get
+                                            <p>MCSE boot camps have its supporters and its detractors. Some people do
+                                                not
+                                                understand why you should have to spend money on boot camp when you can
+                                                get
                                                 the MCSE study materials yourself at a fraction.</p>
                                             <a href="single-blog.html" class="white_bg_btn">View More</a>
                                         </div>
@@ -133,8 +121,10 @@
                                             <a href="single-blog.html">
                                                 <h2>The Basics Of Buying A Telescope</h2>
                                             </a>
-                                            <p>MCSE boot camps have its supporters and its detractors. Some people do not
-                                                understand why you should have to spend money on boot camp when you can get
+                                            <p>MCSE boot camps have its supporters and its detractors. Some people do
+                                                not
+                                                understand why you should have to spend money on boot camp when you can
+                                                get
                                                 the MCSE study materials yourself at a fraction.</p>
                                             <a href="single-blog.html" class="white_bg_btn">View More</a>
                                         </div>
@@ -165,8 +155,10 @@
                                             <a href="single-blog.html">
                                                 <h2>The Glossary Of Telescopes</h2>
                                             </a>
-                                            <p>MCSE boot camps have its supporters and its detractors. Some people do not
-                                                understand why you should have to spend money on boot camp when you can get
+                                            <p>MCSE boot camps have its supporters and its detractors. Some people do
+                                                not
+                                                understand why you should have to spend money on boot camp when you can
+                                                get
                                                 the MCSE study materials yourself at a fraction.</p>
                                             <a href="single-blog.html" class="white_bg_btn">View More</a>
                                         </div>
@@ -197,8 +189,10 @@
                                             <a href="single-blog.html">
                                                 <h2>The Night Sky</h2>
                                             </a>
-                                            <p>MCSE boot camps have its supporters and its detractors. Some people do not
-                                                understand why you should have to spend money on boot camp when you can get
+                                            <p>MCSE boot camps have its supporters and its detractors. Some people do
+                                                not
+                                                understand why you should have to spend money on boot camp when you can
+                                                get
                                                 the MCSE study materials yourself at a fraction.</p>
                                             <a href="single-blog.html" class="white_bg_btn">View More</a>
                                         </div>
@@ -229,8 +223,10 @@
                                             <a href="single-blog.html">
                                                 <h2>Telescopes 101</h2>
                                             </a>
-                                            <p>MCSE boot camps have its supporters and its detractors. Some people do not
-                                                understand why you should have to spend money on boot camp when you can get
+                                            <p>MCSE boot camps have its supporters and its detractors. Some people do
+                                                not
+                                                understand why you should have to spend money on boot camp when you can
+                                                get
                                                 the MCSE study materials yourself at a fraction.</p>
                                             <a href="single-blog.html" class="white_bg_btn">View More</a>
                                         </div>
@@ -266,9 +262,11 @@
                         <div class="blog_right_sidebar">
                             <aside class="single_sidebar_widget search_widget">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Search Posts" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Posts'">
+                                    <input type="text" class="form-control" placeholder="Search Posts"
+                                           onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Posts'">
                                     <span class="input-group-btn">
-                                    <button class="btn btn-default" type="button"><i class="lnr lnr-magnifier"></i></button>
+                                    <button class="btn btn-default" type="button"><i
+                                            class="lnr lnr-magnifier"></i></button>
                                 </span>
                                 </div><!-- /input-group -->
                                 <div class="br"></div>
@@ -283,7 +281,8 @@
                                     <a href="#"><i class="fa fa-github"></i></a>
                                     <a href="#"><i class="fa fa-behance"></i></a>
                                 </div>
-                                <p>Boot camps have its supporters andit sdetractors. Some people do not understand why you
+                                <p>Boot camps have its supporters andit sdetractors. Some people do not understand why
+                                    you
                                     should have to spend money on boot camp when you can get. Boot camps have itssuppor
                                     ters andits detractors.</p>
                                 <div class="br"></div>
@@ -389,10 +388,13 @@
                                 <div class="form-group d-flex flex-row">
                                     <div class="input-group">
                                         <div class="input-group-prepend">
-                                            <div class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                            <div class="input-group-text"><i class="fa fa-envelope"
+                                                                             aria-hidden="true"></i></div>
                                         </div>
-                                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter email"
-                                               onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email'">
+                                        <input type="text" class="form-control" id="inlineFormInputGroup"
+                                               placeholder="Enter email"
+                                               onfocus="this.placeholder = ''"
+                                               onblur="this.placeholder = 'Enter email'">
                                     </div>
                                     <a href="#" class="bbtns">Subcribe</a>
                                 </div>
@@ -427,6 +429,7 @@
 
 <script>
     import BannerArea from "../components/common/BannerArea";
+
     export default {
         name: "Blog",
         components: {BannerArea}
